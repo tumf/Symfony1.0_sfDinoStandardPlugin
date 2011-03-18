@@ -1,0 +1,2 @@
+<?php
+sfCore::splSimpleAutoLoad("sfHydrateRequestParameters");

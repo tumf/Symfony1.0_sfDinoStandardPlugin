@@ -1,0 +1,66 @@
+
+.list{ 
+}
+
+/* utility*/
+
+.list .utility{
+  text-align: right;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.list .utility img{
+  vertical-align: middle;
+}
+
+/* listing */
+.list table.listing{
+ clear: both;
+ border-bottom: 1px solid #d7d7d7;
+ border-collapse: collapse;
+ border-spacing: 0;
+ margin-top: 1em;
+}
+.list table.listing th { text-align: left; padding: 0 1em .1em 0; font-size: 12px }
+.list table.listing thead { background: #f7f7f0 }
+.list table.listing thead th {
+ border: 1px solid #d7d7d7;
+ border-bottom-color: #999;
+ font-size: 11px;
+ font-weight: bold;
+ padding: 2px .5em;
+ vertical-align: bottom;
+}
+.list table.listing thead th a { border: none; padding-right: 12px }
+.list table.listing tbody td, table.listing tbody th {
+ border: 1px dotted #ddd;
+ padding: .33em .5em;
+ vertical-align: top;
+}
+.list table.listing tbody tr *{ background-color: transparent; }
+.list table.listing tbody tr { border-top: 1px solid #ddd }
+.list table.listing tbody tr:hover { background: #eed !important }
+.list table.listing tbody {line-height: 24px;}
+.list table.listing tbody .actions a{display: inline;}
+.list table.listing tbody td.data {padding: 0;}
+.list table.listing tbody .data a{
+  display: block;
+  text-decoration: none;
+  color: #004;
+  padding: 0 4px;
+}
+
+.list table.listing tfoot th{ 
+ padding: 1em;
+}
+
+/* pager */
+.list .pager{
+}
+.list .pager .page{
+  font-size: 14px; 
+  font-weight: bold;
+  vertical-align: top;
+}
+.list .pager .page a{ text-decoration: underline;}
